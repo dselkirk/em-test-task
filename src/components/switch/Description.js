@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames/bind';
 import { connect } from 'react-redux';
-import styles from '../switch-content/styles.css';
+import styles from './styles.css';
 import {updateFormDescription} from '../../actions/index';
 import {getFormDescription} from '../../selectors/index';
 

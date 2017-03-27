@@ -11,6 +11,7 @@
     "babel-polyfill": "^6.23.0",
     "classnames": "^2.2.5",
     "fastclick": "^1.0.6",
+    "gh-pages-deploy": "^0.4.2",
     "history": "^4.6.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
@@ -104,6 +105,9 @@
     "rules": {
       "string-quotes": "single"
     }
+  },
+  "gh-pages-deploy": {
+    "staticpath": "public"
   },
   "scripts": {
     "eslint": "eslint components src test tools postcss.config.js webpack.config.js",
