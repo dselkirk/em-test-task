@@ -1,6 +1,6 @@
 {
-  "name": "app",
-  "version": "0.0.0",
+  "name": "evil-martians",
+  "version": "0.1.0",
   "private": true,
   "engines": {
     "node": ">=6",
@@ -113,8 +113,6 @@
     "test:watch": "mocha --compilers js:babel-register --reporter min --watch",
     "build": "node tools/build.js",
     "build:debug": "node tools/build.js --debug",
-    "publish": "node tools/publish.js",
-    "publish:debug": "node tools/publish.js --debug",
     "start": "node tools/run.js"
   }
 }
