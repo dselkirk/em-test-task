@@ -1,0 +1,17 @@
+.sidebar {
+  width: 400px;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+
+  &-title {
+      background: #e5e5e5;
+      font-size: 15px;
+      font-weight: bold;
+      color: #4f4f4f;
+      text-align: center;
+      height: 55px;
+      line-height: 55px;
+   }
+}

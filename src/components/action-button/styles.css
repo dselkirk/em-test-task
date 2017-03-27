@@ -1,0 +1,21 @@
+.action-button {
+  cursor: pointer;
+  color: #7F7F7F;
+  display: inline-block;
+  width: 140px;
+  height: 27px;
+  line-height: 27px;
+  text-align: center;
+  border: 1px solid #F2F2F2;
+  border-radius: 4px;
+  margin-bottom: 16px;
+
+  &:hover {
+    color: #7D88D4;
+    border-color: #7D88D4;
+  }
+
+  &:nth-child(odd) {
+    margin-right: 16px
+  }
+}

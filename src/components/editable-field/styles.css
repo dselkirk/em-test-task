@@ -1,0 +1,62 @@
+.editable-field {
+
+  &__title {
+    position: relative;
+    top: 3px;
+    display: inline-block;
+    font-size: 12px;
+    color: #4F4F4F;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 280px;
+
+    &--narrow {
+       max-width: 140px;
+    }
+   }
+
+  &__input {
+    width: 70%;
+
+    &--narrow {
+       width: 50%;
+    }
+  }
+
+  &__icon {
+     cursor: pointer;
+     display: inline-block;
+     position: relative;
+     width: 16px;
+     height: 16px;
+   }
+
+  &__icon--edit {
+     top: 4px;
+     left: 20px;
+     background: url(../../assets/edit.svg);
+     background-repeat: no-repeat;
+     background-size: contain;
+   }
+
+  &__icon--save {
+     top: 5px;
+     left: 12px;
+     background: url(../../assets/save.png);
+     background-repeat: no-repeat;
+     background-size: contain;
+   }
+
+  &__icon--cancel {
+     top: 5px;
+     left: 20px;
+     background: url(../../assets/cancel.svg);
+     background-repeat: no-repeat;
+     background-size: contain;
+   }
+
+   &--required {
+      color: #FF0000;
+    }
+}

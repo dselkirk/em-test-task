@@ -1,0 +1,26 @@
+:global(body) {
+  background: #fafafa;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 1280px;
+}
+
+
+:global(input[type="checkbox"]), :global(input[type="radio"]) {display: none;}
+:global(input[type="checkbox"]) + :global(label), :global(input[type="radio"]) + :global(label) {padding-left: 20px;}
+:global(input[type="checkbox"]) + :global(label) {background: url('http://i.imgur.com/LpSXDFI.png') no-repeat 0 center;}
+:global(input[type="radio"]) + :global(label) {background: url('http://i.imgur.com/YWUFP1H.png') no-repeat 0 center;}
+:global(input[type="checkbox"]):checked + :global(label), :global(input[type="checkbox"]):hover + :global(label) {background: url('http://i.imgur.com/xS4jaLI.png') no-repeat 0 center;}
+:global(input[type="radio"]):checked + :global(label), :global(input[type="radio"]):hover + :global(label) {background: url('http://i.imgur.com/q4VadN4.png') no-repeat 0 center;}
+
+:global(input[type="text"]) {
+  outline: 0;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: none;
+  border: 1px solid #ccc;
+  height: 21px;
+  line-height: 21px;
+}

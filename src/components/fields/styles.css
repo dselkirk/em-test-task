@@ -1,0 +1,44 @@
+.field {
+  color: #999999;
+
+  &__add-item {
+    cursor: pointer;
+    font-size: 10px;
+    color: #BEC4EA;
+   }
+
+  &__textarea {
+    resize: none;
+    outline: 0;
+    height: 60px;
+    color: #999999;
+    border-color: #CCCCCC;
+    border-radius: 4px;
+  }
+
+  &__select {
+    outline: 0;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    height: 21px;
+    line-height: 21px;
+  }
+
+  &__icon {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    width: 16px;
+    height: 16px;
+  }
+
+  &__icon--remove {
+     left: 28px;
+     top: 4px;
+     background: url(../../assets/remove.svg);
+     background-repeat: no-repeat;
+     background-size: contain;
+   }
+}

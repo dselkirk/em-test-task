@@ -1,0 +1,46 @@
+.switch-group {
+  color: #e5e5e5;
+  font-size: 9px;
+}
+
+.switch {
+  cursor: pointer;
+  display: inline-block;
+  width: 200px;
+  height: 52px;
+  line-height: 52px;
+  text-align: center;
+  background: #fff;
+
+  &--selected {
+    color: #7D88D4;
+    border-bottom: 2px solid #7D88D4;
+  }
+}
+
+.switch-content {
+  background: #fff;
+  padding: 0 50px;
+
+  &-description {
+     font-size: 10px;
+     font-style: italic;
+     color: #bfbfbf;
+     padding: 15px 0;
+     border-bottom: 1px solid #E5E5E5;
+  }
+
+  &-title {
+     color: #4f4f4f;
+     font-size: 15px;
+     padding: 20px 0;
+  }
+}
+
+.description-field {
+  width: 300px;
+  height: 120px;
+  color: #999999;
+  border-color: #CCCCCC;
+  border-radius: 4px;
+}

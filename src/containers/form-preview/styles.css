@@ -1,0 +1,47 @@
+.form-preview {
+  margin: 55px 50px 55px 450px;
+  padding: 15px 50px;
+  background: #fff;
+
+  &-title {
+     font-size: 15px;
+     font-weight: bold;
+     color: #4f4f4f;
+   }
+
+  &__save-button  {
+    cursor: pointer;
+    float: right;
+    font-size: 10px;
+    color: #fff;
+    width: 100px;
+    line-height: 27px;
+    height: 27px;
+    text-align: center;
+    background: #9AA5EC;
+    border-radius: 4px;
+  }
+
+  &-error {
+    margin-top: 40px;
+    color: #A94442;
+    background: #F2DEDE;
+    border: 1px solid #EBCCCC;
+    padding: 15px;
+    border-radius: 4px;
+  }
+
+  &-description {
+    text-transform: uppercase;
+    margin-top: 40px;
+    padding-bottom: 26px;
+    font-size: 10px;
+    color: #BFBFBF;
+    border-bottom: 1px solid #E5E5E5;
+
+    &-text {
+      text-transform: none;
+      color: #4F4F4F;
+     }
+   }
+}
